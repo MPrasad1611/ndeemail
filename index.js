@@ -49,7 +49,7 @@ const server = http.createServer((req, res) => {
     });
   } else {
     
-    res.end("Method Not Allowed");
+    res.end("It Is Only For Post Methods");
   }
 });
 
